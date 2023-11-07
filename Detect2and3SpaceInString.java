@@ -1,3 +1,6 @@
+///Detect2and3SpaceInString
+
+
 import java.util.Scanner;
 
 public class Detect2and3SpaceInString {

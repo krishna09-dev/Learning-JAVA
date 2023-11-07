@@ -1,3 +1,6 @@
+///AverageOfAArray
+
+
 public class AverageOfAArray {
     public static void main(String[] args) {
         int [] num = {12 ,324 ,546 ,656 ,34 ,45 };
