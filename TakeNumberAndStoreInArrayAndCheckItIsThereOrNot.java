@@ -15,7 +15,7 @@ public class TakeNumberAndStoreInArrayAndCheckItIsThereOrNot {
             System.out.println("enter the element of array one by one");
             arr[i]=sc.nextInt();
         }
-        ///checks is there value or not is yes then boolean will be made yes if no it will remain same false
+        ///checks is there value or not if yes then boolean will be made yes if no it will remain same false
         System.out.println("Enter the number u want to check");
         int num = sc.nextInt();
         boolean checked = false;
