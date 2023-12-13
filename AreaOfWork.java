@@ -12,15 +12,21 @@ import java.util.Scanner;
 public class AreaOfWork {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        ///takes age as input from user
         System.out.println("Enter your age");
         int age = sc.nextInt();
+        ///takes gender as input from user
         System.out.println("please enter your gender as (M or F)");
         String sex = sc.next();
+        ///takes marital satusts as yes or no from user
         System.out.println("enter your marital status as (Y or N )");
         String Status = sc.next();
+        ///first check  gender if female then goes in if statement
         if (sex.equals("F")) {
             System.out.println("you can only work in urban areas");
+            /// if not then goes to else statement
         }else{
+            ///now checks the age and does according to it
             if (age>=20 && age<=40) {
                 System.out.println("u can work anywhwere");
             }else{
