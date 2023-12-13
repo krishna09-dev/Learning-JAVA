@@ -1,3 +1,5 @@
+
+
 ///Detect2and3SpaceInString
 
 
