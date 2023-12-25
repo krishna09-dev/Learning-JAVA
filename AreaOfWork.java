@@ -39,5 +39,6 @@ public class AreaOfWork {
         }
         sc.close();
         //testing
+        //other
     }
 }
