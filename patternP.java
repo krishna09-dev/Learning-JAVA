@@ -21,5 +21,7 @@ public class patternP {
             }
             System.out.println();
         }
+
+        
     }
 }
