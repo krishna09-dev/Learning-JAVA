@@ -8,6 +8,6 @@ public class increment {
       //  System.out.println(z);
        // System.out.println(x); */
         char ch= 'f' ;
-        System.out.println(ch++);
+        System.out.println(++ch);
     }
 }

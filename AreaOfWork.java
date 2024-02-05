@@ -20,7 +20,7 @@ public class AreaOfWork {
         String sex = sc.next();
         ///takes marital satusts as yes or no from user
         System.out.println("enter your marital status as (Y or N )");
-        String Status = sc.next();
+        // String Status = sc.next();
         ///first check  gender if female then goes in if statement
         if (sex.equals("F")) {
             System.out.println("you can only work in urban areas");
@@ -38,7 +38,6 @@ public class AreaOfWork {
             }
         }
         sc.close();
-        //testing
-        //other
+       
     }
 }

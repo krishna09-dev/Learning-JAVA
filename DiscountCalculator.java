@@ -5,7 +5,7 @@ Judge and print total cost for user.
 */
 
 
-import java.util.*;
+import java.util.Scanner;
 public class DiscountCalculator {
     public static void main(String args[]){
         System.out.println("Enter the number of quantity");
