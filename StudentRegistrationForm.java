@@ -14,13 +14,13 @@ public class StudentRegistrationForm extends JFrame {
         // for date combobox
 		
 		
-        // for month combobox
-		// JComboBox monthComboBox = new JComboBox();
-		// monthComboBox.setModel(new DefaultComboBoxModel(new String[] {"January", "February", "March", 
-		// 												"April", "May", "June", "July", "August", 
-		// 												"September","October", "November", "December"}));
-		// monthComboBox.setBounds(316, 448, 90, 17);
-		// this.add(monthComboBox);
+        for month combobox
+		JComboBox monthComboBox = new JComboBox();
+		monthComboBox.setModel(new DefaultComboBoxModel(new String[] {"January", "February", "March", 
+														"April", "May", "June", "July", "August", 
+														"September","October", "November", "December"}));
+		monthComboBox.setBounds(316, 448, 90, 17);
+		this.add(monthComboBox);
 		
         // for yearComboBox
 
